@@ -1,0 +1,29 @@
+name = "TFMotifs"
+uuid = "c8486dc6-cf54-4a70-901e-1b6c137417dd"
+authors = ["Sergio Q <sergioquintanillapayet@gmail.com> and contributors"]
+version = "0.1.0"
+
+[deps]
+BioSequences = "7e6ae17a-c86d-528c-b3b9-7f778a29fe59"
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+DataFramesMeta = "1313f7d8-7da2-5740-9ea0-a2ca25f37964"
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+FASTX = "c2308a5c-f048-11e8-3e8a-31650f418d12"
+GenomicFeatures = "899a7d2d-5c61-547b-bef9-6698a8d05446"
+GenomicIntersections = "73cd4776-3ab0-4d7d-bb6b-cfe6b869bf0a"
+Glob = "c27321d9-0574-5035-807b-f59d2c89b15c"
+Measures = "442fdcdd-2543-5da2-b0f3-8c86c306513e"
+MotifScanner = "dba2f2e1-95c7-4c83-b437-9ac639531d3d"
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+StatsPlots = "f3b207a7-027a-5e70-b257-86293d7955fd"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
